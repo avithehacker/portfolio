@@ -17,6 +17,9 @@
      background-color: #192734;
      color: #EEEEEE;
 }
+b{
+    color: #dad6d6;
+}
 p{
     color: #a5a4a4;
 }
@@ -27,6 +30,25 @@ p{
 .alignright {
 	float: right;
 }
+a, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+a:hover{
+    color: #F9D276;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
     </style>
 </head>
 <body>
@@ -38,9 +60,247 @@ p{
       <div style="clear: both;"></div>
       <!--Header and Nav End here-->
    <hr>
-   <h3>Buidling Coupon code management system</h3>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, natus. Eveniet voluptatibus laboriosam ipsam enim iusto labore provident asperiores impedit! Ab voluptatem magni nam rem nostrum consectetur laborum suscipit explicabo?</p>
-   <hr>
- 
+   <h2><u> Building a scalable coupon code management system</u></h2>
+   <p>
+      <b><u>Author</u></b> <br> Avinash Singh
+   </p>
+   <p>
+   <b> <u>Change history</u></b> <br>
+    Version 1.0 <br>
+    March, 21 2022, First Draft 
+    
+   </p>
+<p> <b>  <u>Goal</u></b> <br>
+Creating a coupon code management system where anyone can easily integrate coupons to give discounts in their app, website or any kind of running platform. This platform has two main goals. The first is to remove dependency on payment platforms for coupons and second is to give the vendors(developers) all in one solution where they can manage all their coupon needs.
+</p>
+ <p>
+     <b><u>Background</u></b> <br>
+Coupons are a powerful tool to attract new customers. In a survey by Market track 83% of shoppers have made an unplanned purchase based on a promotion/coupon.  And according to a Valassis coupons report  In comparison to two years ago, there are significantly more consumers who say they always use coupons, driven by an increase in millennials’ frequency of coupon use.
+
+ </p>
+ <p>
+<b>   <u> Objective</u></b> <br>
+    1.	All in one solution for offers, voucher and coupon management. <br>
+    2.	Simple and easy integration on all platforms. <br>
+    3.	Developer friendly Docs website with good UI. <br>
+    4.	Easy ways to create offers, Offer Dashboard, Consumption history, voucher dashboard. <br>
+    5.	Freedom while setting discounts and offers. <br>
+    6.	Remove dependency on payment gateway. 
+    
+ </p>
+ <p>
+    <b><u>Assumptions</u></b> <br>
+    ●	The users of this platform are someone who has some basic technical knowledge(programming who can copy paste code and modify it according to his need) of technology, developers and companies. <br>
+    ●	The target customers can be individual or/and small, medium or large businesses. <br>
+    ●	Only pricing strategy is required for the initial draft. The price of the product will be calculated per cost and after considering all variables. <br>
+    ●	Only basic structure for features is required for the initial draft. Any additional or unique features can be added after further discussion. <br>
+    ●	Any addition or changes in the features, details or types of coupon or discount will be done post further discussion.
+    
+ </p>
+ <p>
+     
+<b><u>Types of coupons</u></b> <br>
+1.	Percentage Discount:- In this type the discount will be a percentage of the price of a particular product. Eg: 20% off on purchasing safety shoes. <br>
+2.	Flat Discount:- These are fixed discounts given on purchase of a particular product. Eg: RS 50 off on purchasing <br>
+3.	Item Coupon:- Item coupons can only be applied to items, and will not apply to other line items that are not items in the catalogue. Item coupons can be a fixed amount or a percentage. <br>
+4.	Free Trial Coupon:- Free trial coupons can be used to give new subscriptions different free trial lengths.
+
+ </p>
+ <p>
+     
+<b><u>Features Overview</u> </b> <br>
+1.	Single code coupons for mass distribution with the option to limit maximum redemptions and or set a specific redeem by date. <br>
+2.	Bulk unique codes for individual delivery and tracking. <br>
+3.	Discounts at the account level or tied to specific subscriptions. <br>
+4.	Coupons that discount one-time non-subscription charges. <br>
+5.	Item coupons specific to items from the Item Catalogue. <br>
+6.	Percentage discounts or fixed amount discounts in multiple currencies for one coupon. <br>
+7.	Free trial coupons to give new subscriptions special free trial lengths. <br>
+8.	Offer your discount for one purchase, a limited time, or forever. <br>
+9.	Set how many times a customer can redeem a specific coupon. <br>
+10.	Limit customers to one active coupon, or allow multiple coupons on their account and purchases. <br>
+11.	Ability to edit, expire, and restore coupon campaigns.
+
+ </p>
+ <p>
+<b>  <u>  How this solution works</u></b> <br>
+
+    This solution works on the final price of the product. <br>
+    
+    Here are the detailed steps of working:- <br>
+    
+    Step 1:- Fetch the final price of the product. <br>
+    Step 2:- Apply coupon according to needs. <br>
+    Step 3:- Modify the price according to the coupon discount. <br>
+    Step 4:- Send a modified amount to payment gateways. <br>
+    Step 5:- Now you can proceed to pay. 
+    
+ </p>
+ <p>
+     
+<b><u>User persona</u></b> <br>
+User 1:- <b> SAM</b> <br>
+ Age:-25 <br>
+Occupation:- Artist <br>
+Goal:- Want to attract more customers on his online guitar course through a 7 days free trial. <br> 
+Pain point:- He has built his website through wordpress. He is searching for a free trial coupon plugin. <br>
+<br>
+User 2:- <b>Mohan</b> <br>
+Age:- 40 <br>
+Occupation:- Sr Manager at an ecommerce startup. <br>
+Goals:-Trying to offer discounts on all the platforms like mobile app, desktop website. <br>
+Pain point:- Frustrated with limited options available. He needed to prebuild platform for all types of coupon code but couldn't find it at one place.
+
+ </p>
+ <p>
+     <b>
+        <u>Rough user flow How the user create coupon</u>
+        </b> <br><br>
+        <img src="images/coupon-code-management-system/rough-user-flow/Coupon-creation-user-flow.jpg" style="width: 50%;" alt="">
+ </p>
+ <p>
+<b><u>    The Product User Flow</u></b> <br>
+
+    In order to create a coupon, these will be the sample flow structure. <br> <br><br><br>
+    <b>Coupon code creation dashboard</b> <br> <br>
+    <img src="images/coupon-code-management-system/wireframe user flow/1.png" style="width: 50%;" alt=""> <br>
+    
+This is the dashboard page with details of all the current and previous coupons created. <br>
+To create a new coupon click on “New coupon Button” <br> <br><br><br>
+<b>New Coupon - Rules Section - Part I</b> <br><br>
+
+<img src="images/coupon-code-management-system/wireframe user flow/2.png" style="width: 50%;" alt=""> <br>
+This page is divided into four sections: Rules, Redemption, Eligible Charges and Description. <br> <br> <br><br>
+<b>New Coupon - Rules Section - Part II</b> <br><br>
+
+<img src="images/coupon-code-management-system/wireframe user flow/3.png" style="width: 50%;" alt=""> <br>
+The Rules section covers 4 details : Name of coupon, Type of Coupon, Type of Discount and Duration of Coupon.
+<br> <br> <br><br>
+<b>New Coupon - Redemption Section</b>
+<br><br>
+<img src="images/coupon-code-management-system/wireframe user flow/4.png" style="width: 50%;" alt=""> <br>
+Redemption section covers 2 details: Number of times Coupon can be used and expiry date of the coupon once redeemed. <br><br><br> <br>
+<b>
+    New Coupon - Eligible Charge Section
+    </b><br> <br>
+    <img src="images/coupon-code-management-system/wireframe user flow/5.png" style="width: 50%;" alt=""> <br>
+    This section covers two details:- <br>
+    Types of plan <br>
+    Types of discount <br> <br> <br><br>
+    <b>New Coupon - Description Section</b> <br><br>
+    <img src="images/coupon-code-management-system/wireframe user flow/6.png" style="width: 50%; " alt=""> <br>
+    
+Here users have to write a description which you want to show to the customer when he used/redeemed the coupon. <br>
+Once all the details are entered, click on the ‘create coupon button’. <br>
+The details will be saved and a coupon will be created as per those details. <br>
+Once the coupon is created the details of the active coupons are updated on the Dashboard. <br> <br> <br><br>
+
+<b>
+    Coupon Dashboard 
+    </b> <br><br>
+    <img src="images/coupon-code-management-system/wireframe user flow/7.png" style="width: 50%;" alt=""> <br>
+    After successfully creating a new coupon, the user will be back on the Dashboard Page where the details of the new coupon created will be displayed along with other records. <br> <br> <br>
+    
+</p>
+<p>
+    <b><u>Rough user flow How the user Integrate coupon in his platform</u></b> <br> <br>
+    <img src="images/coupon-code-management-system/rough-user-flow/Coupon-intregation-user-flow.jpg" style="width: 50%;" alt=""> <br><br>
+</p>
+<p> <b><u> In order to integrate the Grid coupon system, these will be the sample flow structure.</u></b>
+<br><br>
+The documentation page helps users to understand the Grid coupon system. It contains clean, easy and well-structured UI/UX. It has a step by step process well documented in it to help fast and better integration.
+
+<br>
+<br>
+Here is the getting started page where users can see various features/options offered.
+<br><br>
+<img src="images/coupon-code-management-system/wireframe intregation/getting started.png" style="width: 50%;" alt=""> <br><br>
+<br>
+
+The getting started page is the first page which is well documented and has all the details about the Grid Coupon System platform and their integration process. On the left hand side there is a sub navigation menu for fast navigation.
+<br><br>
+
+</p>
+<p>
+<b>    Quick start Page</b> <br>
+Quick start page has a language specific guide where the user can choose his preferred language. 
+<br><br>
+Entire screen is filled with language options. First, the developer has to choose the platform, then front end, then back end.
+<br> <br>
+<img src="images/coupon-code-management-system/wireframe intregation/quick start.png" style="width: 50%;" alt=""> <br><br>
+<br>
+Developers have the option to download whole sample code. With sample code he can easily modify the Grid coupon sample app according to his needs. They can also download SDK and API.
+
+</p>
+<p>
+    After selecting the preferred language there is step by step documentation where the developer can easily understand the code or he can copy-paste sample code. <br>
+    <img src="images/coupon-code-management-system/wireframe intregation/step wise.png" style="width: 50%;" alt=""> <br><br>
+    <br>
+
+    <b>Plugin Section</b> <br> <br>
+    On the plugin page developer can easily download and integrate the plugins according to his preferred CMS like Wordpress, drupal or e-commerce platforms like shopify, woo commerce. <br>
+    <img src="images/coupon-code-management-system/wireframe intregation/plugin.png" style="width: 50%;" alt=""> <br><br>
+    <br>
+<b>    <u>Pricing</u></b> <br> <br>
+    The pricing is categorised into two types: Yearly subscription and Customised Pricing. The subscription is yearly because it is perceived that the monthly subscription won’t be able to cover the cost even if it did the price will be high. Also there are chances that there might be huge gaps between the monthly subscription which might lead to an increase in the churn rate of the company. <br> <br>
+    Customised Subscription is basically for large firms who might need the platform with extra features or customised features for their businesses. <br> <br>
+    Yearly Subscription will have three categories: <br> <br>
+    Individual with access to 1 user login(Eg:- someone who sells courses online) <br> <br>
+    Small Business with access to 3 - 5 user login (number can be specified per cost) <br> <br>
+    Medium/Large Business with access to 7 - 10 user login (number can be specified per cost) <br> <br>
+    For every additional user a certain sum can be charged separately per cost. <br> <br>
+    Customized Pricing will have fixed pricing per the cost incurred during customisation, and for every additional update a particular sum can be charged. This will allow us to cover the cost incurred during every update. <br> <br>
+    For better understanding below is the Pricing strategy in point: <br> <br>
+    1.	Yearly Subscription <br>
+    ○	Individual - 1 User <br>
+    ○	Small Business - 3 - 5 user <br>
+    ○	Medium/Large Business - 7- 10 Users <br> <br>
+    Note: Xyz amount for every additional user. <br> <br>
+    2.	Customized <br>
+    ○	Fixed price after considering all variables <br>
+    ○	For every Bug fixing/update a nominal amount is charged <br> <br>
+    </p>
+    <p>
+        <b><u>Metrics</u></b> <br> <br>
+        
+<table>
+    <tr>
+      <th>Feature</th>
+      <th>Goals</th>
+      <th>Metrics</th>
+    </tr>
+    <tr>
+      <td>Activation</td>
+      <td>User signing up Integration with platform</td>
+      <td>Number of user paying on platform <br>
+  Minutes of time consumed to integrate this platform
+  </td>
+    </tr>
+    <tr>
+      <td>Retention</td>
+      <td>User using this platform for long time</td>
+      <td>Number of user using platform every month</td>
+    </tr>
+    <tr>
+      <td>Referral</td>
+      <td>User being satisfied with this platform and referring it</td>
+      <td>Number of users sharing the links to people</td>
+    </tr>
+    <tr>
+      <td>Revenue</td>
+      <td>Target revenue/ Number of users purchased the product.</td>
+      <td>Customer Lifetime value (CLTV)</td>
+    </tr>
+    
+  </table>
+    </p>
+    <p>
+        <b><u>Open Issues</u></b> <br> <br>
+NA <br> <br>
+<b><u>
+    Q&A</u></b> <br> <br>
+NA
+
+    </p>
 </body>
 </html>
