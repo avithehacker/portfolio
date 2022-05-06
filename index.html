@@ -16,22 +16,45 @@
 <link rel="manifest" href="images/fevi/site.webmanifest">
  <!-- fevicon end here-->
     <script src='main.js'></script>
-
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
     <style>
+   
+     
+       h1,h2,h3,h4,h5,h6{
+        color: #f01556;
+        }
+        .mode {
+            float:right;
+
+ 
+        }
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    
         body {
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: larger;
      max-width: 800px;
      margin: 0 auto;
      padding: 3%;
-     background-color: #192734;
-     color: #EEEEEE;
 }
-p{
-    color: #a5a4a4;
-}
+
 .alignleft {
 	float: left;
-    color: #F9D276;
+    color: #f01556;
 }
 .alignright {
 	float: right;
@@ -51,8 +74,10 @@ a:hover{
         <h3 class="alignleft"><a href="index.html"> Avinash Singh</a></h3>
         <h4 class="alignright"><a href="about.html"> About</a> &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/avithehacker/"> Linkedin</a>&nbsp;&nbsp;&nbsp; <a href="resume.pdf" target="_blank" rel="noopener noreferrer"> Resume</a></h4>
       </div>
+
       <div style="clear: both;"></div>
       <!--Header and Nav End here-->
+
    <hr>
    <h3><a href="coupon-management-system.html"> Coupon Code Management System</a></h3>
    <p>Creating a coupon code management system where anyone can easily integrate coupons to give discounts in their app, website or any kind of running platform. This platform has two main goals. The first is to remove dependency on payment platforms for coupons and second is to give the vendors(developers)...</p>
@@ -63,7 +88,7 @@ a:hover{
    <p>20 Feb 2022</p>
    <hr>
    <h3> <a href="veeery.html"> Veeery (Accessible Learning Platform for visually Impaired)</a></h3>
-   <p>A platform that provides a sense of independence to the visually impaired.My dream project, my entrepreneurial journey, my startup Veeery. How did one meeting with a visually impaired student change my life, why I started Veeery, what I have learned in veeery, what we have created and achieved in Veeery? </p>
+   <p>A platform that provides a sense of independence to the visually impaired. My dream project, my entrepreneurial journey, my startup Veeery. How did one meeting with a visually impaired student change my life, why I started Veeery, what I have learned in veeery, what we have created and achieved in Veeery? </p>
    <p>Oct 2019 to Present</p>
    <hr>
    <h3><a href="dharnika.html"> Dharnika Foundation (Disability Doesnt means dependancy)</a></h3>
@@ -88,5 +113,25 @@ a:hover{
     <p>21 March 2017</p>
    <hr>
 -->
+  <!--Dark mode Script start here-->
+  <br><br>
+<div class="mode">
+    Dark mode:            
+    <span class="change">OFF</span>
+</div>
+ 
+<script>
+    $( ".change" ).on("click", function() {
+        if( $( "body" ).hasClass( "dark" )) {
+            $( "body" ).removeClass( "dark" );
+            $( ".change" ).text( "OFF" );
+        } else {
+            $( "body" ).addClass( "dark" );
+            $( ".change" ).text( "ON" );
+        }
+    });
+</script>
+
+  <!--Dark mode Script end here-->
 </body>
 </html>
