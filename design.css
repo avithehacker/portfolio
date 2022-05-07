@@ -1,18 +1,30 @@
    
      #textbox{
-        font-size: xx-large;
+        font-size: 3.5em;
+        font-family: 'Times New Roman', Times, serif;
+       
+        
     }
-      h1,h2,h3,h4,h5,h6{
-       color: #f01556;
-       font-size: larger;
-       }
-   
+    
+      
        body {
-           font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-           font-size: large;
+           font-family: Arial, Helvetica, sans-serif;
+          
     max-width: 800px;
     margin: 0 auto;
     padding: 3%;
+}
+p
+{
+    font-style: oblique;
+}
+
+.links{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+   
 }
 
 
