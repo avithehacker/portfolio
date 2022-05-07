@@ -35,3 +35,12 @@ a, a:focus, a:active {
 a:hover{
    color: #F9D276;
 }
+
+@media only screen and (max-width: 600px) {
+    #textbox{
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
+       
+        
+    }
+  }
