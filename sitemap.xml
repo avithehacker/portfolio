@@ -9,43 +9,58 @@
 
 <url>
   <loc>https://theeazyway.com/</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://theeazyway.com/index.html</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://theeazyway.com/about.html</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://theeazyway.com/resume.pdf</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
+  <loc>https://theeazyway.com/product.html</loc>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://theeazyway.com/coupon-management-system.html</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://theeazyway.com/writings.html</loc>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://theeazyway.com/writing_after_school.html</loc>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://theeazyway.com/swm.html</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://theeazyway.com/veeery.html</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://theeazyway.com/dharnika.html</loc>
-  <lastmod>2022-05-06T08:06:18+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://theeazyway.com/writings_Honest_interview.html</loc>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://theeazyway.com/writings_accessibility_basic_needs.html</loc>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://theeazyway.com/writings_blog_and_artical_doesnt_work.html</loc>
+  <lastmod>2022-05-11T21:26:55+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
