@@ -36,6 +36,18 @@ a:hover{
    color: #F9D276;
 }
 
+.intro{
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-size: x-large;
+}
+.italic{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+
 @media only screen and (max-width: 600px) {
     #textbox{
         font-size: 3em;
@@ -43,15 +55,16 @@ a:hover{
        
         
     }
-  }
+ 
+    .intro{
+      font-family: 'Times New Roman', Times, serif;
+      
+      font-size: 1em;
+    }
+    .italic{
+      font-style: italic;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.5em;
+    }
 
-  .intro{
-    font-family: 'Times New Roman', Times, serif;
-    
-    font-size: x-large;
-  }
-  .italic{
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
   }
