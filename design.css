@@ -46,7 +46,9 @@ a:hover{
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
 }
-
+table, th, td {
+  border: 1px solid black;
+}
 
 @media only screen and (max-width: 600px) {
     #textbox{
